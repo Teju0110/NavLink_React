@@ -1,0 +1,30 @@
+.navBar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid rgb(53, 53, 53);
+}
+
+.navBarItems ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navBarItems li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.navBarItems a {
+    text-decoration: none;
+    color: white;
+}
+
+.navBarItems a.active {
+    color: #e0ca78;
+}
